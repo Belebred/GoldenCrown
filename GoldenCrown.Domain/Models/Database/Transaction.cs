@@ -1,4 +1,4 @@
-namespace GoldenCrown.Api.Models.Database;
+namespace GoldenCrown.Domain.Models.Database;
 public class Transaction: Record
 {
     public long SenderId {get; set;}

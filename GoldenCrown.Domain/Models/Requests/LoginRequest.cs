@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
+namespace GoldenCrown.Domain.Models.Requests;
 public class LoginRequest
 {
     [Required]

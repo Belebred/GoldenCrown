@@ -1,4 +1,4 @@
-using GoldenCrown.Api.Models;
+using GoldenCrown.Domain.Models.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GoldenCrown.Api.Controllers
@@ -17,7 +17,7 @@ namespace GoldenCrown.Api.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody]LoginRequest request)
         {
-            
+          
             return Ok();
         }
     }

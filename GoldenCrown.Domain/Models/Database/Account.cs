@@ -1,4 +1,4 @@
-namespace GoldenCrown.Api.Models.Database;
+namespace GoldenCrown.Domain.Models.Database;
 public class Account: Record
 {
     public long UserId {get; set;}
